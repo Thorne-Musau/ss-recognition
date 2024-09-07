@@ -18,3 +18,32 @@ The dataset consists of audio files categorized into gunshots and ambient sounds
 ## Key Functions
 ### Feature Extraction
 Extracts MFCC features from audio files.
+
+### Load Audio Files
+Loads audio files from a directory and extracts features.
+
+## Data Preparation
+Combines and shuffles the data, then splits it into training and testing sets.
+
+## Model
+A Convolutional Neural Network (CNN) is built and trained to classify the audio features.
+
+## Evaluation
+The model is evaluated on the test set, and performance metrics are printed.
+
+
+## Usage
+1. Ensure you have the required libraries installed:
+    ```sh
+    pip install numpy pandas librosa tensorflow scikit-learn
+    ```
+2. Run the main script:
+    ```sh
+    python ss_recognition.py
+    ```
+
+## Results
+The model achieves high accuracy in distinguishing between gunshot and ambient sounds, as indicated by the evaluation metrics.
+
+## License
+This project is licensed under the MIT License.
